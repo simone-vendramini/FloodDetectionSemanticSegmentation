@@ -39,6 +39,9 @@ where each pixel's integer value represents a class label.
 
 The complete dataset can be downloaded from [FloodNet](https://www.dropbox.com/scl/fo/k33qdif15ns2qv2jdxvhx/ANGaa8iPRhvlrvcKXjnmNRc?rlkey=ao2493wzl1cltonowjdbrnp7f&e=3&dl=0).
 
+## Results
+![u_net_aum](https://github.com/user-attachments/assets/b37a51bc-b38c-497f-a14b-6ee77037f174)
+
 ## References
 
 > [1] Rahnemoonfar, M., Chowdhury, T., Sarkar, A., Varshney, D., Yari, M., & Murphy, R. R. (2021). FloodNet: A High Resolution Aerial Imagery Dataset for Post Flood Scene Understanding. IEEE Access, 9, 89644–89654. DOI:10.1109/ACCESS.2021.3090981
