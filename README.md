@@ -12,6 +12,33 @@ To install the required packages, run:
 pip install -r requirements.txt
 ```
 
+## Running the Code  
+
+### Step 1: Download and Prepare the Dataset  
+
+1. Download the FloodNet dataset from the link provided below.  
+2. Extract the contents into the `FloodNet` directory.  
+3. Run the following script to format the dataset:  
+
+   ```bash
+   python src/compress.py
+   ```
+
+### Step 2: Run the Experiments  
+
+Use the provided Jupyter notebooks to explore, preprocess, and train models. The
+notebooks are structured as follows:  
+
+- **`Data-Exploration.ipynb`** – Explore the dataset.  
+- **`Data-Augmentation.ipynb`** – Perform data augmentation.  
+- **`U-Net.ipynb`** – Implement the U-Net model.  
+- **`SegNet.ipynb`** – Implement the SegNet model.  
+- **`DeepLab.ipynb`** – Implement the DeepLab model.  
+- **`Plots.ipynb`** – Evaluate model performance with visualizations.  
+
+Each notebook is designed to keep the code organized and improve readability,
+making it easier to follow the different stages of the project.  
+
 ## Dataset
 
 The FloodNet dataset comprises high-resolution aerial images capturing flooded areas.
@@ -30,9 +57,9 @@ Each image is annotated with one of ten classes:
 
 The dataset is divided into three subsets:
 
-* Training set: 1,445 images
-* Validation set: 450 images
-* Test set: 448 images
+- Training set: 1,445 images
+- Validation set: 450 images
+- Test set: 448 images
 
 Each image is accompanied by a corresponding mask, which is a 3-channel image
 where each pixel's integer value represents a class label.
@@ -40,6 +67,7 @@ where each pixel's integer value represents a class label.
 The complete dataset can be downloaded from [FloodNet](https://www.dropbox.com/scl/fo/k33qdif15ns2qv2jdxvhx/ANGaa8iPRhvlrvcKXjnmNRc?rlkey=ao2493wzl1cltonowjdbrnp7f&e=3&dl=0).
 
 ## Results
+
 ![u_net_aum](https://github.com/user-attachments/assets/b37a51bc-b38c-497f-a14b-6ee77037f174)
 
 ## References
